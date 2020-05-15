@@ -1,0 +1,18 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: 60px 100px 100px 100px 100px 100px;
+}
+
+#display {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    font-size: 50px;
+}
+.grid-item {
+    font-size: 50px;
+}
+#equals {
+    grid-column: 3 / 5;
+    grid-row: 2;
+}
